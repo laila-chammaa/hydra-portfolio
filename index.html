@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang='en-us'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0 user-scalable=yes, minimal-ui" />
+    <title>Laila Chamma'a</title>
+
+    <link rel='stylesheet' href='default/reset.css?v=2.0.0' type='text/css' />
+    <link rel='stylesheet' href='style.css' type='text/css' />
+    <script src='default/privacy.js'></script>
+
+    <!-- import the latest version of hydra synth-->
+    <script src="https://unpkg.com/hydra-synth"></script>
+
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <div id='contenu'>
+        <script src="script.js"></script>
+        <div class='container4'>
+            <h1 id="info">Enter a <a id="inline" href="https://coolors.co/f2cfd7-f2cfd7-f2cfd7-f2cfd7-fcd9e1"
+                    target="_blank">coolers
+                    palette
+                    with 5 colors</a> to change the background!</h1>
+            <div class="input">
+
+                <input type="text" id="user_input"
+                    value="Example: https://coolors.co/f2cfd7-f2cfd7-f2cfd7-f2cfd7-fcd9e1" onfocus="removeDefault();">
+                <button type="submit" onclick="changeColor();">Submit</button>
+
+            </div>
+            <div class="input buttonGroup">
+                <button onclick="generate();">Generate Random Palette</button>
+                <button onclick="goBack();">Back to Default</button>
+            </div>
+
+            <div class="input buttonGroup">
+                <button onclick="changePattern(1);">1</button>
+                <button onclick="changePattern(2);">2</button>
+                <button onclick="changePattern(3);">3</button>
+                <button onclick="changePattern(4);">4</button>
+            </div>
+
+            <div id='exhibit2'>
+                <div class="letter">
+                    <h1>
+                        Laila Chamma’a
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Justo nec ultrices dui sapien. Imperdiet nulla malesuada
+                        pellentesque elit. Enim eu turpis egestas pretium aenean pharetra magna ac. Porta non pulvinar
+                        neque laoreet suspendisse interdum. Ut diam quam nulla porttitor massa id neque aliquam
+                        vestibulum. Dictumst vestibulum rhoncus est pellentesque. Feugiat vivamus at augue eget arcu
+                        dictum varius duis. Leo vel orci porta non pulvinar neque laoreet suspendisse. Sollicitudin nibh
+                        sit amet commodo nulla facilisi nullam vehicula. Non blandit massa enim nec dui. Integer quis
+                        auctor elit sed.
+                        <br><br>
+                        Semper risus in hendrerit gravida rutrum quisque non tellus orci. Malesuada fames ac turpis
+                        egestas integer eget aliquet nibh praesent. Volutpat ac tincidunt vitae semper quis lectus nulla
+                        at. Posuere sollicitudin aliquam ultrices sagittis orci a. Odio tempor orci dapibus ultrices in.
+                        Dui accumsan sit amet nulla. Est ultricies integer quis auctor elit. Turpis massa tincidunt dui
+                        ut ornare lectus sit.
+                        <br><br>
+
+                        Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Neque ornare aenean
+                        euismod elementum. Elit eget gravida cum sociis natoque penatibus et. A arcu cursus vitae
+                        congue. Non pulvinar neque laoreet suspendisse interdum consectetur. Maecenas pharetra convallis
+                        posuere morbi. Accumsan tortor posuere ac ut consequat semper. Vulputate ut pharetra sit amet
+                        aliquam id diam maecenas ultricies. Nibh praesent tristique magna sit amet. Blandit libero
+                        volutpat sed cras ornare arcu dui vivamus arcu. Diam maecenas sed enim ut sem viverra.
+                        <br><br>
+                        Lectus mauris ultrices eros in cursus turpis massa. Turpis tincidunt id aliquet risus feugiat in
+                        ante metus. Odio aenean sed adipiscing diam donec. Quis eleifend quam adipiscing vitae proin
+                        sagittis nisl rhoncus. Ultrices vitae auctor eu augue ut lectus. At elementum eu facilisis sed.
+                        Nunc sed id semper risus in hendrerit. Vitae auctor eu augue ut. Morbi leo urna molestie at.
+                        Purus semper eget duis at tellus. Morbi leo urna molestie at.
+                    </p>
+                    <p style="display: none;">
+                        Real-time Chat
+                        - Created a chat app that allows users to enter rooms using React.js, Node.js, and
+                        Socket.io for
+                        real-time data transfer.
+                        - Added unit, integration, and end-to-end tests with Jest and Puppeteer.
+                        - Used Github Actions to create a CI/CD pipeline to automate deployment and testing
+                        before
+                        integrating changes.
+                        <br><br>
+                        COVID-19 Tracker
+                        Created a COVID-19 dashboard using React.js and Charts.js, with Material UI to help
+                        spread
+                        awareness by visualizing the data.
+                        The app fetches live data asynchronously from a REST API.
+                        Got familiar with React Hooks, CSS modules, extracting data, and data flow.
+                        <br><br>
+                        Panic Button — Mobile App Design
+                        Designed an app that helps with panic attacks using Figma. The app allows users to
+                        upload
+                        comforting words and sounds that will be played when they press the panic button.
+                        Added a feature to call an emergency contact if the attack lasts a certain amount of
+                        time
+                        specified by the user.
+                        Created mockups and wireframes.
+                        <br><br>
+                        The Little Things — Android App
+                        Developed a notification-based Android app with Kotlin that sends daily reminders of
+                        random acts
+                        of kindness to help strengthen your relationships with friends and family.
+                        <br><br>
+                        Music Blog Website
+                        Developed a website inspired by my love for music and writing using Python, Flask,
+                        Bootstrap.
+                        Used web templating with Jinja and inheritance with Python to remove repeated HTML.
+                        Deployed as a Docker container on Heroku.
+                        <br><br>
+                        Thank you for reading,
+                        <br><br>
+                        Laila Chamma'a
+                        <br>
+                        Computer Science Student | Concordia University
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

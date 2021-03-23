@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+::selection {
+  background: #d7e3fc;
+  /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #d7e3fc;
+  /* Gecko Browsers */
+}
+
+#exhibit2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+#exhibit2 h1 {
+  font-family: 'Belleza', sans-serif;
+  font-size: 22px;
+  text-align: left;
+  letter-spacing: 0.5px;
+  margin-bottom: 40px !important;
+  margin-left: 20px !important;
+  width: 500px;
+  margin-top: 10px !important;
+  line-height: 1 !important;
+  margin: auto;
+  display: inline-block;
+  max-width: 100%;
+  word-break: normal;
+}
+
+.letter {
+  background: #ffffffd5;
+  padding: 20px;
+  margin-bottom: 40px;
+  max-width: 620px;
+  height: 100%;
+  width: 80%;
+}
+
+.letter p,
+h3 {
+  margin: auto;
+  display: inline-block;
+  max-width: 100%;
+  word-break: normal;
+}
+.container4 {
+  padding: 0px 10px 5px 0px;
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+@font-face {
+  font-family: 'FoundersGrotesk-Light';
+  src: url('../FoundersGrotesk-Light.otf');
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -5;
+  overflow-y: hidden;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#exhibit2 p,
+h3 {
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Red Hat Text', sans-serif;
+  width: 569px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  /* line-height: 1.3em; */
+  text-align: left;
+  padding-right: 30px;
+}
+
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 568px) */
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+}
+
+@media only screen and (max-width: 940px),
+  only screen and (max-device-width: 940px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  margin: 40px 0px;
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+.input input {
+  width: 20%;
+  border-radius: 6px;
+  border: none;
+  margin-right: 10px;
+}
+
+.input button {
+  border-radius: 6px;
+  border: none;
+  background-color: white;
+}
+
+#info {
+  font-family: 'Belleza', sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  width: 500px;
+  margin-top: 40px !important;
+  line-height: 1 !important;
+  display: inline-block;
+  max-width: 100%;
+  word-break: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  margin: auto;
+}
+
+.buttonGroup button {
+  margin: 0px 10px;
+  padding: 7px 20px;
+}
+
+#inline {
+  color: black;
+  text-decoration: underline;
+  display: inline !important;
+}
